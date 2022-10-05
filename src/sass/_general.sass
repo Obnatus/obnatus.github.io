@@ -1,0 +1,519 @@
+header
+	background-color: #111
+	position: fixed
+	height: 110px
+
+.popup
+	position: fixed
+	top: 60px
+	left: -100%
+	width: 100%
+	height: 100%
+	background-color: #111
+	z-index: 100
+	display: flex
+	transition: 0.3s
+	.menu
+		display: none
+
+.header
+	display: flex
+	&_header
+		padding-top: 24px
+		text-decoration: none
+		display: block
+		color: #fff
+		font-size: 40px
+		margin: 0 1360px 0 80px
+		&:hover
+			color: $main-color
+.menu
+	height: 100px
+	display: flex
+	align-items: center
+	
+	&_link
+		text-decoration: none
+		margin-right: 40px
+		color: #fff
+		font-size: 24px
+			
+		&:hover
+			color: $main-color
+	.hamburger
+		display: none
+		
+
+.intro
+	padding-top: 180px
+	width: 100%
+	height: 964px
+	background-color: #111
+	&_header
+		padding-left: 80px
+		font-size: 70px
+		color: $main-color
+	&_text
+		padding-left: 80px
+		font-size: 36px
+		color: #fff
+
+.ships
+	padding-top: 180px
+	width: 100%
+	height: 1750px
+	background-color: #111
+	&_header
+		padding-left: 80px
+		font-size: 70px
+		color: $main-color
+.container
+	display: flex
+	flex-wrap: wrap
+	&_card1
+		padding-top: 19px
+		width: 385px
+		height: 397px
+		background-color: #fff
+		margin-left: 80px
+		margin-right: 80px
+		margin-top: 70px
+		border-radius: 10px
+		img
+			display: block
+			margin: 0 auto
+			cursor: pointer
+		.card_cost
+			display: flex
+			margin-top: 32px
+			&_id
+				margin-right: 110px
+				font-size: 24px
+				margin-left: 19px
+			&_numb
+				font-size: 26px
+		.card_name
+			display: flex
+			margin-top: 14px
+			&_id
+				margin-right: 196px
+				font-size: 24px
+				margin-left: 19px
+			&_word
+				font-size: 26px
+	&_card2
+		padding-top: 19px
+		width: 385px
+		height: 397px
+		background-color: #fff
+		margin-left: 210px
+		margin-right: 80px
+		margin-top: 70px
+		border-radius: 10px
+		img
+			display: block
+			margin: 0 auto
+			cursor: pointer
+		.card_cost
+			display: flex
+			margin-top: 32px
+			&_id
+				margin-right: 51px
+				font-size: 24px
+				margin-left: 19px
+			&_numb
+				font-size: 26px
+		.card_name
+			display: flex
+			margin-top: 14px
+			&_id
+				margin-right: 150px
+				font-size: 24px
+				margin-left: 19px
+			&_word
+				font-size: 26px
+		
+
+	&_card3
+		padding-top: 19px
+		width: 385px
+		height: 397px
+		background-color: #fff
+		margin-left: 210px
+		margin-right: 40px
+		margin-top: 70px
+		border-radius: 10px
+		img
+			display: block
+			margin: 0 auto
+		.card_cost
+			display: flex
+			margin-top: 32px
+			&_id
+				margin-right: 95px
+				font-size: 24px
+				margin-left: 19px
+			&_numb
+				font-size: 26px
+		.card_name
+			display: flex
+			margin-top: 14px
+			&_id
+				margin-right: 80px
+				font-size: 24px
+				margin-left: 19px
+			&_word
+				font-size: 26px
+
+.falcon
+	padding-top: 180px
+	width: 100%
+	height: 1090px
+	background-color: #111
+	&_text
+		margin-top: 80px
+		padding-left: 80px
+		font-size: 32px
+		color: #fff
+	&_header
+		padding-left: 80px
+		font-size: 70px
+		color: $main-color
+	&_logo
+		padding: 60px 0 0 80px
+		display: block
+		width: 624px
+		height: 419px
+	&_wrapper
+		display: flex
+		&_column
+			padding-top: 70px
+			flex-direction: column
+			width: 800px
+			&_model
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 116px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+						
+			&_name
+				margin-top: 30px
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 234px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+
+			&_length
+				margin-top: 30px
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 358px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+			
+			&_cost
+				margin-top: 30px
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 222px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+
+			&_created
+				margin-top: 30px
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 271px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+
+.death_star
+	padding-top: 180px
+	width: 100%
+	height: 1090px
+	background-color: #111
+	&_text
+		margin-top: 80px
+		padding-left: 80px
+		font-size: 32px
+		color: #fff
+	&_header
+		padding-left: 80px
+		font-size: 70px
+		color: $main-color
+	&_logo
+		padding: 60px 0 0 80px
+		display: block
+		width: 624px
+		height: 419px
+	&_wrapper
+		display: flex
+		&_column
+			padding-top: 70px
+			flex-direction: column
+			width: 800px
+			&_model
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 222px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+						
+			&_name
+				margin-top: 30px
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 269px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+
+			&_length
+				margin-top: 30px
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 313px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+			
+			&_cost
+				margin-top: 30px
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 150px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+
+			&_created
+				margin-top: 30px
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 239px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+
+.sentry
+	padding-top: 180px
+	width: 100%
+	height: 1090px
+	background-color: #111
+	&_text
+		margin-top: 80px
+		padding-left: 80px
+		font-size: 32px
+		color: #fff
+	&_header
+		padding-left: 80px
+		font-size: 70px
+		color: $main-color
+	&_logo
+		padding: 60px 0 0 80px
+		display: block
+		width: 624px
+		height: 419px
+	&_wrapper
+		display: flex
+		&_column
+			padding-top: 70px
+			flex-direction: column
+			width: 800px
+			&_model
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 157px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+						
+			&_name
+				margin-top: 30px
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 299px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+
+			&_length
+				margin-top: 30px
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 284px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+			
+			&_cost
+				margin-top: 30px
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 150px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+
+			&_created
+				margin-top: 30px
+				display: flex
+				color: #fff
+				&_id
+					margin-right: 197px
+					font-size: 28px
+					margin-left: 47px
+				&_var
+					font-size: 30px
+
+
+.planets
+	padding-top: 180px
+	width: 100%
+	height: 1000px
+	background-color: #111
+	&_header
+		padding-left: 80px
+		font-size: 70px
+		color: $main-color
+	.falcon_wrapper
+		display: flex
+		flex-wrap: wrap
+		&_card1
+			display: flex
+			border-radius: 10px
+			margin: 57px 0 48px 80px
+			width: 724px
+			height: 256px
+			background-color: #fff
+			img
+				display: block
+				padding: 16px 16px 16px 16px
+			&_column
+				display: flex
+				flex-direction: column
+				margin-top: 50px
+				&_name
+					display: flex
+					font-size: 24px
+					&_id
+						margin-right: 220px	
+
+				&_diameter
+					margin-top: 23px
+					font-size: 24px
+					display: flex
+					&_id
+						margin-right: 172px	
+				&_population
+					margin-top: 23px
+					font-size: 24px
+					display: flex
+					&_id
+						margin-right: 114px	
+
+		&_card2
+			display: flex
+			border-radius: 10px
+			margin: 57px 0 48px 275px
+			width: 724px
+			height: 256px
+			background-color: #fff
+			img
+				display: block
+				padding: 16px 16px 16px 16px
+			&_column
+				display: flex
+				flex-direction: column
+				margin-top: 50px
+				&_name
+					display: flex
+					font-size: 24px
+					&_id
+						margin-right: 268px	
+
+				&_diameter
+					margin-top: 23px
+					font-size: 24px
+					display: flex
+					&_id
+						margin-right: 160px	
+				&_population
+					margin-top: 23px
+					font-size: 24px
+					display: flex
+					&_id
+						margin-right: 136px	
+
+		&_card3
+			display: flex
+			border-radius: 10px
+			margin: 57px 195px 48px 80px
+			width: 724px
+			height: 256px
+			background-color: #fff
+			img
+				display: block
+				padding: 16px 16px 16px 16px
+			&_column
+				display: flex
+				flex-direction: column
+				margin-top: 50px
+				&_name
+					display: flex
+					font-size: 24px
+					&_id
+						margin-right: 246px	
+
+				&_diameter
+					margin-top: 23px
+					font-size: 24px
+					display: flex
+					&_id
+						margin-right: 187px	
+				&_population
+					margin-top: 23px
+					font-size: 24px
+					display: flex
+					&_id
+						margin-right: 150px	
+
+
+
+		
